@@ -24,6 +24,7 @@ CodeBot은 GitHub으로부터 PR(Pull Request) 이벤트가 발생하면, 변경
 CodeBot 사용을 위해서는 GitHub에 대한 접근 권한이 필요합니다. 이를 위해 GitHub에서 Personal Access Token을 생성한 후 CodeBot에 등록이 필요합니다.
 #### GitHub Personal access token 생성
 1. 오른쪽 상단의 프로필 사진을 클릭한 다음 Settings를 클릭합니다.
+![Settings](/images/github-access-token-생성-01.png)
 2. 왼쪽 사이드 바에서 Developer settings를 클릭합니다.
 3. 왼쪽 사이드 바에서 Personal access tokens를 클릭합니다.
 4. 오른쪽의 Generate new token을 클릭합니다.
