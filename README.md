@@ -79,17 +79,17 @@ CodeBot 사용을 위해서는 GitHub에 대한 접근 권한이 필요합니다
 
 ---
 
+## GitHub Pull request 확인
+
+---
+
 ## CodeBot 분석 결과 확인
 
-### GitHub Pull request 확인
-
-### CodeBot Result 페이지
-
-#### CodeBot Dashboard의 Repository 리스트를 클릭하면 최근 Pull Request의 분석 결과를 볼 수 있습니다.
+> CodeBot Dashboard의 Repository 리스트를 클릭하면 최근 Pull Request의 분석 결과를 볼 수 있습니다.
 
 ![](/images/result/result-all.jpg)
 
-#### Repository Code Size
+### Repository Code Size
 
 Repository의 코드 정보
 > 분석 대상이 되는 Repository 내의 코드에 대한 정량적 수치입니다.
@@ -103,7 +103,7 @@ Repository의 코드 정보
 * Directories : 디렉토리 수
 * Classes : 클래스 수 (Nested Class, Interface, Enums, Annotations 포함)
 
-#### Issue(Inspection)
+### Issue(Inspection)
 
 잠재결함 정보
 > 정적 분석을 통해 나타나는 코드의 문제점으로, 결함 발생 위험, 보안 취약, 유지보수 저해 등과 관련된 Rule에 따라 코드를 탐지하고 알려줍니다.
@@ -115,7 +115,7 @@ Repository의 코드 정보
 * Vulnerabilities : 보안취약점과 관련된 Rule 위반 건수
 * Code Smells : 유지보수성과 관련된 Rule 위반 건수
 
-#### Complexity
+### Complexity
 
 복잡도 정보
 
@@ -129,7 +129,7 @@ Repository의 코드 정보
 * Equal or Over 50 : 복잡도가 50 이상인 Function의 수
 * Over 20 : 복잡도가 20 초과인 Function의 수
 
-#### Duplication
+### Duplication
 
 중복도 정보
 
@@ -141,7 +141,7 @@ Repository의 코드 정보
 * Duplicated Lines : 중복 라인 수
 * Duplicated Blocks : 중복된 라인 블록 수 (Java의 경우 10개 이상 연속적으로 중복된 Statement)
 
-#### CAM(Code Architecture Metric)
+### CAM(Code Architecture Metric)
 
 코드 구조 분석 정보
 
@@ -156,7 +156,7 @@ Repository의 코드 정보
 * Normalized Distance From Main Sequence - ND : 패키지 단위의 추상화와 안정성 균형을 측정 (JDepend 측정 방식을 사용)
 * Cohesion Of Class - COC : 클래스 단위의 응집도를 측정 (CBAMU 방식을 사용)
 
-#### AutoFix Recommendations
+### AutoFix Recommendations
 
 잠재결함 자동 수정 제안
 
